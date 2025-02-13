@@ -5,6 +5,7 @@ const helmet = require("helmet");
 const compression = require("compression");
 const connectDB = require("./config/db");
 const authRoutes = require("./routes/authRoutes");
+const reportRoutes = require("./routes/reportRoutes");
 
 dotenv.config();
 const app = express();
@@ -26,6 +27,7 @@ app.get("/", (req, res) => {
 
 
 app.use("/api/auth", authRoutes);
+app.use("/api/reports", reportRoutes);
 
 
 // Start server
