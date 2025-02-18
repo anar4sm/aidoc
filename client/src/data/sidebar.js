@@ -1,5 +1,6 @@
 // src/data/sidebarData.js
-import { LayoutDashboard, BarChart2, Package, ShoppingCart, FileText, HelpCircle, Home, User, Settings } from "lucide-react"; 
+import { LayoutDashboard, BarChart2, MessageSquare, FileUp, FileText, HelpCircle, Home, User, Settings } from "lucide-react"; 
+import {  } from 'lucide-react';
 
 export const sidebarData = [
   {
@@ -7,8 +8,8 @@ export const sidebarData = [
     items: [
       { text: "Dashboard", icon: LayoutDashboard, route: "/dashboard", alert: false },
       { text: "Statistics", icon: BarChart2, route: "/statistics", alert: false },
-      { text: "Inventory", icon: Package, route: "/inventory", alert: false },
-      { text: "Orders", icon: ShoppingCart, route: "/orders", alert: false },
+      { text: "Chat", icon: MessageSquare, route: "/chat", alert: false },
+      { text: "File Upload", icon: FileUp, route: "/fileUpload", alert: false },
       { text: "Billings", icon: FileText, route: "/billings", alert: false },
       { text: "Help", icon: HelpCircle, route: "/help", alert: true },
     ],
