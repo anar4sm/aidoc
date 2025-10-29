@@ -50,7 +50,7 @@ An AI-driven healthcare web app that helps users with **symptom checking, X-ray 
 
 ## 📂 Folder Structure
 ```
-📦 ai-healthcare-assistant  
+📦 aidoc  
 ├── 📂 client (Frontend - React.js)  
 │   ├── 📂 public  
 │   ├── 📂 src  
@@ -106,7 +106,7 @@ An AI-driven healthcare web app that helps users with **symptom checking, X-ray 
 ### **1️⃣ Clone the Repository**
 ```sh
 git clone https://github.com/anar4sm/aidoc.git
-cd ai-healthcare-assistant
+cd aidoc
 ```
 
 ### **2️⃣ Install Frontend Dependencies**
