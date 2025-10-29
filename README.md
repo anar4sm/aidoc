@@ -170,13 +170,8 @@ Check the hosting platform for automatic deployment.
 
 ---
 
-## 🤝 Contributing
-Contributions are welcome! Please **fork** the repository and submit a **pull request**.
-
----
-
 ## 📞 Support
 For questions or support, contact:
-📧 Email: your-email@example.com
-📌 GitHub Issues: [Open an Issue](https://github.com/your-username/ai-healthcare-assistant/issues)
+📧 Email: anar4sm@gmail.com
+📌 GitHub Issues: [Open an Issue](https://github.com/anar4sm/aidoc/issues)
 
